@@ -126,8 +126,15 @@ button{
   position: relative;
   z-index: 0;
   border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
+.glow-on-hover a{
+  font-style: none;
+  background-color: transparent;
+  color: white;
+}
 .glow-on-hover:before {
   content: '';
   background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
