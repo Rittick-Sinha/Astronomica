@@ -52,6 +52,18 @@ body, html {
     padding-bottom: 7px;
     border-bottom-width: 140px;
 }
+h2{
+  font-size: 2rem;
+  background: -webkit-linear-gradient(45deg,#fbd52d, #ef3a7b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: -53px;
+}
+h3{
+  background: -webkit-linear-gradient(45deg,#ff5f6d, #ffc371);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 #card1 img{
     z-index: 2;
@@ -87,7 +99,12 @@ body, html {
 .content{
     text-align: center;
 }
-
+#card1 .content h2{
+  font-size: 2rem;
+}
+#card1 .content h3{
+  font-size: 1.5rem;
+}
 .footer{
   color: white;
   display: flex;
@@ -185,6 +202,14 @@ button{
 
 @media screen and (max-device-width: 480px)
 and (orientation: portrait) {
+  
+  h2{
+    font-size: 1rem;
+    margin-bottom: -102px;
+  }
+  h3{
+    font-size: 0.8rem;
+  }
   .content2{
     font-size: 0.7rem;
 }
